@@ -2,14 +2,14 @@
     font-family: "SF Arabic";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/SF-Arabic.ttf") format("truetype");
+   
 }
 
 @font-face {
     font-family: "SF Arabic Rounded";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/SF-Arabic-Rounded.ttf") format("truetype");
+  
 }
 
 
@@ -1069,7 +1069,7 @@ body , div , label , text , a  , span , p{
     font-family: Framework7 Icons;
     font-style: normal;
     font-weight: 400;
-    src: url(../../static/media/drdchatiI-Regular.852655880420bcb785bd.woff2) format("woff2"), url(../../static/media/drdchatiI-Regular.286bd8fcebb566a45853.woff) format("woff"), url(../../static/media/drdchatiI-Regular.4b8a7d10ca32f3125696.ttf) format("truetype")
+
 }
 
 .f7-icons,
@@ -24799,7 +24799,6 @@ button.text-editor-button i sup {
     font-family: Material Icons;
     font-style: normal;
     font-weight: 400;
-    src: local("Material Icons"), local("MaterialIcons-Regular"), url(../../static/media/MaterialIcons-Regular.cff684e59ffb052d72cb.woff2) format("woff2"), url(../../static/media/MaterialIcons-Regular.83bebaf37c09c7e1c3ee.woff) format("woff"), url(../../static/media/MaterialIcons-Regular.5e7382c63da0098d634a.ttf) format("truetype")
 }
 
 .material-icons {
