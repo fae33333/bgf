@@ -19,7 +19,7 @@ body , div , label , text , a  , span , p{
 }
 #settings body ,#settings div , #settings label , #settings text , #settings a  {
     font-family: "SF Arabic" !important;
-    font-weight: 400!important;
+    font-weight: 700!important;
 }
 
 
