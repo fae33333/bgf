@@ -2,14 +2,14 @@
     font-family: "SF Arabic";
     font-style: normal;
     font-weight: 400;
-   
+    src: url("../fonts/SF-Arabic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "SF Arabic Rounded";
     font-style: normal;
     font-weight: 400;
-  
+    src: url("../fonts/SF-Arabic-Rounded.ttf") format("truetype");
 }
 
 
@@ -1069,7 +1069,6 @@ body , div , label , text , a  , span , p{
     font-family: Framework7 Icons;
     font-style: normal;
     font-weight: 400;
-
 }
 
 .f7-icons,
@@ -19826,7 +19825,8 @@ table.data-table {
     min-height: var(--drdchati-message-bubble-min-height);
     padding: var(--drdchati-message-bubble-padding-vertical) var(--drdchati-message-bubble-padding-horizontal);
     position: relative;
-    word-break: break-word
+    word-break: break-word;
+	background-image: initial; background-position: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: rgb(239, 243, 247); width: 99%;
 }
 
 .message-image img {
@@ -19882,7 +19882,7 @@ table.data-table {
 }
 
 .message-received .message-bubble {
-    background: var(--drdchati-message-received-bg-color);
+
     color: var(--drdchati-message-received-text-color)
 }
 
