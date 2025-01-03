@@ -3292,7 +3292,38 @@ mkrchats
 .welcome_icon2 .tago {
     display: none;
 }
-
+.welcome_icon .banr_userxx,
+.welcome_icon2 .banr_userxx {
+    display: none;
+}
+.welcome_icon23 .banr_userxx,
+.welcome_icon23 .banr_userxx {
+    display: none;
+	
+}
+.welcome_icon23 .message-bubble,
+.welcome_icon23 .message-bubble {
+    border-radius: var(--drdchati-message-bubble-border-radius);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--drdchati-message-bubble-font-size);
+    line-height: 1.2;
+    line-height: var(--drdchati-message-bubble-line-height);
+    min-height: var(--drdchati-message-bubble-min-height);
+    padding: var(--drdchati-message-bubble-padding-vertical) var(--drdchati-message-bubble-padding-horizontal);
+    position: relative;
+    word-break: break-word;
+    background-image: initial;
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(239, 243, 247);
+    width: 99%;
+	
+}
 .tago {
     font-weight: 300 !important;
     font-size: 11px !important;
@@ -3926,3 +3957,19 @@ a {
     .link i {
         transition: color 0.3s ease;
     }
+	
+.chatmastaeer{
+	border-radius: var(--drdchati-message-bubble-border-radius);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--drdchati-message-bubble-font-size);
+    line-height: 1.2;
+    line-height: var(--drdchati-message-bubble-line-height);
+    min-height: var(--drdchati-message-bubble-min-height);
+    padding: var(--drdchati-message-bubble-padding-vertical) var(--drdchati-message-bubble-padding-horizontal);
+    position: relative;
+    word-break: break-word;
+	background: linear-gradient(132deg, rgb(221, 221, 221), rgb(239, 243, 247), rgb(221, 221, 221), rgb(239, 243, 247), rgb(221, 221, 221), rgb(239, 243, 247), rgb(221, 221, 221), rgb(239, 243, 247)) 0% 0% / 250% 250%;
+    animation: 15s ease 0s infinite normal none running Gradient;
+}
